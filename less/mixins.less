@@ -1,1 +1,24 @@
 // Mixins Here
+
+.custom-btn(@width: 100px, @bgColor:@btn-bg-color, @fontColor:@porcelain ) {
+    margin: 0;
+    padding: 0.8rem 1.8rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight:600;
+    border-radius: 0.6rem;
+    width: @width;
+    height:3.4rem;
+    background-color: @bgColor;
+    color: @fontColor
+}
+
+.h1-styles {
+    font-size: 4rem;
+    padding:1.6rem 0;
+}
+
+.nav-mixin {
+    text-decoration:none;
+    color:@nav-font;
+}
