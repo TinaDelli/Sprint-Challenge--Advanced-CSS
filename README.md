@@ -34,14 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website will accomodate different devices at specified breakpoints and still use hard coded pixels while a fully responsive website uses responsive units and media queries are utilized to constrain responsive units so thousands of devices can have the same experience.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first starts coding from the mobile breakpoint up, (e.g.min-width:500 to min-width:750 to min-width 1200) designing for the mobile user first whereas desktop first starts the design from the desktop view (e.g. max-width:1200 to max-width 750 to max-width:500) adding in media queries for smaller screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font size:62.5% puts one rem equal to 10px instead of the regular 16px = 1 rem at 100% and makes it easier for us to use rems (Because we can count by tens!)
+
 4. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing helps us to design our css like our html, enabling us to nest our elements just as we would in our html, making it easier to pinpoint styles. We can also create mixins to use the same style type through multiple classes or even a parametric mixin to design styles for layout or specific design types (e.g. a button) to make styling more efficient.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+I would say escapes are pretty cool for adding the quick media query in without having to type out the min or max width every time. The concept that gives me the most trouble would be parametric mixins. 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
