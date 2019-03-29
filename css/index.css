@@ -255,9 +255,11 @@ footer {
     width: 90%;
   }
 }
-.home .space-images .sky,
-.home .space-images .launch {
-  display: none;
+@media (max-width:500px) {
+  .home .sky,
+  .home .launch {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;

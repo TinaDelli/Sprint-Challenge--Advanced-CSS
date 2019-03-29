@@ -62,12 +62,13 @@
         width:90%;
       }
     }
-
-    .sky, .launch {
-      display:none;
-    }
   }
 
+  .sky, .launch {
+    @media @phone {
+      display:none;
+    } 
+  }
   .visit-planets {
     padding: 15px;
 
